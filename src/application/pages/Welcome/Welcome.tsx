@@ -1,6 +1,6 @@
 import React from "react";
 import "./Welcome.css";
-import { ToJoin, WhatIs, Security } from "./divisions/index.tsx";
+import { ToJoin, WhatIs, Security,Dev } from "./divisions/index.tsx";
 
 export const Welcome = ():JSX.Element =>{
     return(
@@ -8,6 +8,7 @@ export const Welcome = ():JSX.Element =>{
             <ToJoin/>
             <WhatIs/>
             <Security/>
+            <Dev/>
         </>
     )
 }
