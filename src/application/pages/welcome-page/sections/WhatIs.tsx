@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, Col, Image, Row } from "react-bootstrap";
+import { Card, Col, Image, Row } from "react-bootstrap";
 
 import stickmanConversatingWithOther from "../../../../resources/stickman-conversating-with-other.png";
 export const WhatIs = ():JSX.Element =>{

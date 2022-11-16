@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './application/App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.css";
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import ErrorPage from './application/pages/error-page/error-page.tsx';
-import { Welcome } from "./application/pages/welcome-page/Welcome.tsx";
+import {  RouterProvider } from 'react-router-dom';
 import { router } from "./application/router/router.tsx"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

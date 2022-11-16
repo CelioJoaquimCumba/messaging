@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, Col, Image, Row } from "react-bootstrap";
+import { Card, Col, Image, Row } from "react-bootstrap";
 
 import dataProtection from "../../../../resources/data-protection.png";
 export const Security = ():JSX.Element =>{
