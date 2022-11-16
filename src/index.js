@@ -5,30 +5,9 @@ import App from './application/App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Root from './routes/root.tsx';
 import ErrorPage from './application/pages/error-page/error-page.tsx';
-import { Welcome } from "./application/pages/Welcome/Welcome.tsx";
-
-const router = createBrowserRouter([
-  { 
-    path: "/intro", 
-    element: <App />,
-    children: [
-      {
-        path: "/intro",
-        element: <Welcome/>,
-      },
-    ],
-  },
-  {
-    path: "/test",
-    element: <Root />,
-  },
-  {
-    path: "/*",
-    element: <ErrorPage />,
-  },
-]);
+import { Welcome } from "./application/pages/welcome-page/Welcome.tsx";
+import { router } from "./application/router/router.tsx"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
