@@ -16,14 +16,16 @@ export const RegisterForm = () => {
         switch (i){
             case '1': 
                 setSteps({
-                    ...steps,
-                    1: true
+                    '0': true,
+                    '1': true,
+                    '2': false,
                 })
                 break;
             case '2': 
                 setSteps({
-                    ...steps,
-                    2: true
+                    '0': false,
+                    '1': false,
+                    '2': true,
                 })
                 break;
             default: 
@@ -39,7 +41,7 @@ export const RegisterForm = () => {
                 <Row className="w-100">
                    
                     <Col sm={12}>
-                    <Form >
+                    <Form action='/' method="post" onSubmit={e => { e.preventDefault()} } >
                         <Tab.Content>
                             <Tab.Pane eventKey="0">
                                     <FirstForm onValid={(value:string)=>handleStep(value)}/>

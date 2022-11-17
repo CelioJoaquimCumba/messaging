@@ -9,7 +9,8 @@ export const Login = () :JSX.Element=>{
                 <Col xs={12} md={6} >
                     <Image fluid src={background} alt="background" className="w-75"/>
                 </Col>
-                <Col xs={12} md={6} className="d-flex justify-content-center">
+                <Col xs={12} md={6} className="d-inline justify-content-center">
+                    <h1 className="mb-5">Register</h1>
                     <LoginForm/>
                 </Col>
             </Row>

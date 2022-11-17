@@ -6,7 +6,7 @@ export const ThirdForm = ():JSX.Element =>{
         <>
             <Form.Group className="mb-3 w-100">
                 <Form.Label>Verification code</Form.Label>
-                <Form.Control type="number" placeholder="000000" />
+                <Form.Control type="number" placeholder="000000" name="verificationCode" />
             </Form.Group>
             <Button type="submit">
                 Submit
