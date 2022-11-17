@@ -13,7 +13,7 @@ export const ToJoin = ():JSX.Element =>{
                             <h1>Be the first to join us</h1>
                         </Card.Title>
                         <Card.Img variant="top" src={stickmanWithHeatBubble} style={{width: '10rem'}}/>
-                        <Button variant="primary">Start messaging</Button>
+                        <a href="./login"><Button variant="primary">Start messaging</Button></a>
                     </Card.Body>
                 </Card>
             </Col>

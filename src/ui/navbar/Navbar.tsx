@@ -14,10 +14,10 @@ export const NavbarComponent = ():JSX.Element => {
         <Navbar.Collapse className="justify-content-end">
             <Stack direction='horizontal' gap={2}>
               <Navbar.Text>
-                <a href="#login">Sign In</a>
+                <a href="login">Sign In</a>
               </Navbar.Text>
               <Navbar.Text>
-                <a href="#register">Register</a>
+                <a href="register">Register</a>
               </Navbar.Text>
             </Stack>
         </Navbar.Collapse>

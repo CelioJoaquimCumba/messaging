@@ -5,6 +5,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import ErrorPage from '../pages/error-page/error-page.tsx';
 import { Welcome } from "../pages/welcome-page/Welcome.tsx";
 import { Login } from '../pages/login-page/login.tsx';
+import { Register } from '../pages/register-page/register.tsx';
 
 export const router = createBrowserRouter([
   { 
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
         {
         path:"/login",
         element: <Login/>
+        },
+        {
+        path:"/register",
+        element: <Register/>
         },
     ],
   },
